@@ -145,14 +145,137 @@ margin-top: 50px;
     text-align: center;
     padding: 0 330px;
 }
+.section-four-container{
+    margin-top: 50px;
+}
+.two-container{
+    display: flex;
+    justify-content: space-between;
+}
+.section-four-container-one{
+    background-color:linear-gradient(0deg, rgba(251, 181, 99, 0.2), rgba(251, 181, 99, 0.2)),
+    linear-gradient(0deg, rgba(251, 181, 99, 0.05), rgba(251, 181, 99, 0.05));;
+    border:1px solid #FBB56333;
+    width: 600px;
+    height: 360px;
+    border-radius: 20px;   
+    line-height: 2;
+    padding:80px;
+    
+}
+
+.section-four-container-two{
+    background-color:linear-gradient(0deg, rgba(41, 206, 246, 0.2), rgba(41, 206, 246, 0.2)),
+    linear-gradient(0deg, rgba(41, 206, 246, 0.05), rgba(41, 206, 246, 0.05));;
+    border:1px solid #29CEF633;
+    width: 600px;
+    height: 360px;   
+    border-radius: 20px;
+    line-height: 2;
+    padding:80px;
+}
+
+.section-four-container-three {
+    background-color: linear-gradient(0deg, rgba(251, 181, 99, 0.2), rgba(251, 181, 99, 0.2)),
+                      linear-gradient(0deg, rgba(251, 181, 99, 0.05), rgba(251, 181, 99, 0.05));
+    border: 1px solid #FBB56333;
+    width: 600px;
+    height: 360px;
+    border-radius: 20px;
+    margin: 0 auto; 
+    margin-top: 30px;
+    line-height: 2;
+    padding:80px;
+}
+
+.section-five-text{
+    text-align: center;
+    padding: 50px 400px;
+}
+.section-five-one{
+background: url(./B9A2-Hero-Travel-main/Images/Group\ 39.png);
+height: 500px;
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.section-five-two{
+    background: url(./B9A2-Hero-Travel-main/Images/Group\ 40.png);
+    height: 500px;
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 50px;
+    }
+    .section-five-three{
+        background: url(./B9A2-Hero-Travel-main/Images/Group\ 39.png);
+        height: 500px;
+        background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            border-radius: 20px;
+            margin-top: 30px;
+            padding: 50px;
+        }
+
+        .section-five-one-container {
+            width: 579px;
+            height: 389px;
+            border-radius: 16px;
+            border: 2px solid #FFFFFF;
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+            line-height: 2;
+            padding: 50px 30px 30px 30px;
+        }
+        .section-five-one-container-logos{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
 
 
+.section-five-button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 5px;
+    background-color: orangered;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 50px;
+}
 
+.section-six{
+    display: flex;
+}
+.section-six-text{
+    font-size: 18px;
+    line-height: 2;
+    padding-right: 100px;
+}
+.section-six-text h1{
+    font-size: 45px;
+    line-height: 1.5;
 
-
-
-
-
+}
+.section-six-image{
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -327,4 +450,130 @@ margin-top: 50px;
         width: 100%;
 
     }
+
+    .section-four{
+        margin-top: 20px;
+    }
+    .section-four-text{
+
+        text-align: center;
+        padding: 0 30px;
+    }
+    .section-four-container{
+        margin-top: 10px;
+    }
+    .two-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section-four-container-one{
+        background-color:linear-gradient(0deg, rgba(251, 181, 99, 0.2), rgba(251, 181, 99, 0.2)),
+        linear-gradient(0deg, rgba(251, 181, 99, 0.05), rgba(251, 181, 99, 0.05));;
+        border:1px solid #FBB56333;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;   
+        line-height: 2;
+        padding:30px;
+        
+    }
+    
+    .section-four-container-two{
+        background-color:linear-gradient(0deg, rgba(41, 206, 246, 0.2), rgba(41, 206, 246, 0.2)),
+        linear-gradient(0deg, rgba(41, 206, 246, 0.05), rgba(41, 206, 246, 0.05));;
+        border:1px solid #29CEF633;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;   
+        line-height: 2;
+        padding:30px;
+    }
+    
+    .section-four-container-three {
+        background-color: linear-gradient(0deg, rgba(251, 181, 99, 0.2), rgba(251, 181, 99, 0.2)),
+                          linear-gradient(0deg, rgba(251, 181, 99, 0.05), rgba(251, 181, 99, 0.05));
+        border: 1px solid #FBB56333;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;   
+        line-height: 2;
+        padding:30px;
+    }
+
+
+    .section-five-text{
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .section-five-one{
+        background: url(./B9A2-Hero-Travel-main/Images/Group\ 39.png);
+        justify-content:center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 5px;
+    }
+    .section-five-two{
+        background: url(./B9A2-Hero-Travel-main/Images/Group\ 40.png);
+        justify-content:center;
+        align-items: center;
+        margin-top: 30px;
+        padding: 5px;
+        }
+        .section-five-three{
+            background: url(./B9A2-Hero-Travel-main/Images/Group\ 39.png);  
+            justify-content:center;
+            align-items: center;
+            margin-top: 30px;
+            padding: 5px;
+            }
+    
+            .section-five-one-container {
+                width:303px;
+                height: 407px;
+                border-radius: 16px;
+                border: 1px solid #FFFFFF;
+                background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+                line-height: 2;
+                padding: 10px 7px 10px 8px;
+            }
+            .section-five-one-container-logos{
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                grid-template-rows: 1fr 1fr;
+                row-gap: 20px;
+                column-gap: 20px;
+            }
+    
+    
+    .section-five-button{
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        padding: 2px 3px;
+        background-color: orangered;
+        color: aliceblue;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .section-six{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-six-text{
+        font-size: 16px;
+        line-height: 2;
+        padding-right: 10px;
+    }
+    
+    .section-six-image img{
+        width: 100%;
+        height: auto;
+    }
+    .section-six-image{
+        width: 100%;
+    }
+    
 }
