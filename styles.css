@@ -119,7 +119,9 @@
 }
 .section-three-text{
     text-align: center;
-    padding: 0 400px;
+    padding: 0 370px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.8;
 }
 .section-three-image-one{
 margin-top: 50px;      
@@ -136,6 +138,12 @@ margin-top: 50px;
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    }
+
+.section-four-text{
+
+    text-align: center;
+    padding: 0 330px;
 }
 
 
