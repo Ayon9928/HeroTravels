@@ -683,7 +683,7 @@ border: 1px solid #1313181A;
     flex-direction: column;
 }
 .section-seven-container{
-    width: 350px;
+    width: 335px;
 height: 353px;
 padding: 30px 30px 30px 30px;
 line-height: 1.2;
@@ -697,8 +697,7 @@ border: 1px solid gray;
 
 .section-seven-right{
     background: url(./B9A2-Hero-Travel-main/Images/Rectangle\ 8\ \(1\).png);
-    width: 335px;
-height: 300px;
+    width: 100%;
 }
 
 .section-seven-one-right-container{
@@ -728,7 +727,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 15px;
-font-size: 16px;
+font-size: 12px;
 padding-left: 20px;
 
 }
