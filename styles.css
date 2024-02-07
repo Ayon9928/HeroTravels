@@ -203,7 +203,7 @@ background-position: center;
     align-items: center;
     border-radius: 20px;
     margin-top: 30px;
-    padding: 5px;
+    padding: 50px;
 }
 .section-five-two{
     background: url(./B9A2-Hero-Travel-main/Images/Group\ 40.png);
@@ -261,11 +261,12 @@ background-position: center;
 
 .section-six{
     display: flex;
+    gap: 120px;
 }
 .section-six-text{
     font-size: 18px;
     line-height: 2;
-    padding-right: 100px;
+    padding-right: 10px;
 }
 .section-six-text h1{
     font-size: 45px;
@@ -275,9 +276,98 @@ background-position: center;
 .section-six-image{
     width: 100%;
     height: auto;
+    
+}
+.section-seven{
+    display: flex;
+    gap: 80px;
+}
+.section-seven-container{
+    width: 474px;
+   height: 422px;
+   border: 2px solid #FF5400;
+   border-radius: 20px;
+   padding:50px ;
+   line-height: 1.5;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.section-seven-right{
+    background: url(./B9A2-Hero-Travel-main/Images/Rectangle\ 8\ \(1\).png);
+    width: 672px;
+height: 422px;
+border-radius: 16px;
+display: flex;
+padding: 60px 20px;
+align-items:end;
+justify-content:end;
+
+}
+
+.section-seven-one-right-container{
+    width: 324px;
+height: 120px;
+border-radius: 16px;
+background-color: #FF5400;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+rotate: -19.63deg;
+color: aliceblue;
+
+
 }
 
 
+
+#section-seven-input{
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+background-color:#1313180D;
+border: none;
+padding: 20px   ;
+}
+.btn{
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+background-color: #FF5400;
+border: none;
+color: #FFFFFF;
+font-size: 16px;
+
+}
+
+footer{
+    background: #1313180D;
+width: 1440px;
+height: 502px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 80px;
+
+}
+.footer-up{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    align-items: center;
+    justify-content: center;
+
+}
+hr{
+    width: 872px;
+background-color: #1313181A;
+border: 1px solid #1313181A;
+
+
+}
 
 
 
@@ -331,6 +421,7 @@ background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: aliceblue;
         
     }
 }
@@ -343,8 +434,11 @@ background-position: center;
 
 
 @media only screen and (max-width:600px) {
+    *{
+        overflow-x: hidden;
+    }
     .container {
-        padding: 5px 30px;
+        padding: 5px 20px;
     }
 
     .navbar-photo {
@@ -564,6 +658,7 @@ background-position: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 20px;
     }
     .section-six-text{
         font-size: 16px;
@@ -579,4 +674,77 @@ background-position: center;
         width: 100%;
     }
     
+
+
+
+    .section-seven{
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+}
+.section-seven-container{
+    width: 350px;
+height: 353px;
+padding: 30px 30px 30px 30px;
+line-height: 1.2;
+gap: 10px;
+}
+.www{
+    width: 288px;
+border: 1px solid gray;
+
+}
+
+.section-seven-right{
+    background: url(./B9A2-Hero-Travel-main/Images/Rectangle\ 8\ \(1\).png);
+    width: 335px;
+height: 300px;
+}
+
+.section-seven-one-right-container{
+   width: 214.02px;
+height: 79.27px;
+font-size: 12px;
+}
+
+
+
+#section-seven-input{
+    width: 288px;
+height: 52px;
+}
+.btn{
+    width: 288px;
+height: 52px;
+
+}
+
+footer{
+    background: #1313180D;
+    width: 385px;
+height: 309px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 15px;
+font-size: 16px;
+padding-left: 20px;
+
+}
+.footer-up{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    align-items: center;
+    justify-content: center;
+
+}
+hr{
+    width: 872px;
+background-color: #1313181A;
+border: 1px solid #1313181A;
+
+
+}
 }
